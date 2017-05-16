@@ -12,6 +12,8 @@
 		57CB83381ECAD34600B6EB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CB83361ECAD34600B6EB54 /* Main.storyboard */; };
 		57CB833A1ECAD34600B6EB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CB83391ECAD34600B6EB54 /* Assets.xcassets */; };
 		57CB833D1ECAD34600B6EB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CB833B1ECAD34600B6EB54 /* LaunchScreen.storyboard */; };
+		57CB83451ECAD52300B6EB54 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 57CB83441ECAD52300B6EB54 /* .gitignore */; };
+		57CB83471ECAD55800B6EB54 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 57CB83461ECAD55800B6EB54 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		57CB83391ECAD34600B6EB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57CB833C1ECAD34600B6EB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57CB833E1ECAD34600B6EB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CB83441ECAD52300B6EB54 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		57CB83461ECAD55800B6EB54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		57CB83261ECAD34600B6EB54 = {
 			isa = PBXGroup;
 			children = (
+				57CB83461ECAD55800B6EB54 /* README.md */,
+				57CB83441ECAD52300B6EB54 /* .gitignore */,
 				57CB83311ECAD34600B6EB54 /* MyOkashi */,
 				57CB83301ECAD34600B6EB54 /* Products */,
 			);
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CB83451ECAD52300B6EB54 /* .gitignore in Resources */,
 				57CB833D1ECAD34600B6EB54 /* LaunchScreen.storyboard in Resources */,
 				57CB833A1ECAD34600B6EB54 /* Assets.xcassets in Resources */,
 				57CB83381ECAD34600B6EB54 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CB83471ECAD55800B6EB54 /* README.md in Sources */,
 				57CB83351ECAD34600B6EB54 /* ViewController.swift in Sources */,
 				57CB83331ECAD34600B6EB54 /* AppDelegate.swift in Sources */,
 			);
